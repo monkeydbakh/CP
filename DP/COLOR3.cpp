@@ -69,6 +69,7 @@ void solve() {
       }
     }
 
+    // chua son
     for (int j = 1; j <= m; j++) {
       for (int k = 1; k <= K; k++) {
         int C = c[i][j];

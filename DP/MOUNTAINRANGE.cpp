@@ -28,7 +28,7 @@ int get(int id, int tl, int tr, int l, int r) {
 	int mid = (tl + tr) >> 1;
 	return max(get(id * 2, tl, mid, l, r), get(id * 2 + 1, mid + 1, tr, l, r));
 }
- 
+
 void Read() {
 	cin >> n;
 	for (int i = 1; i <= n; i++) {
